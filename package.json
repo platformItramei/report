@@ -1,0 +1,19 @@
+{
+  "name": "report",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/test.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@vercel/postgres": "^0.10.0",
+    "fs": "^0.0.1-security",
+    "xlsx": "^0.18.5"
+  }
+}
